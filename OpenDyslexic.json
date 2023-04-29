@@ -1,3 +1,4 @@
+[
 {
     "name": "Purple Mountains",
     "description": "A simple theme for Vendetta with an image of purple mountains. DARK MODE REQUIRED!",
@@ -127,7 +128,7 @@
         "alpha": 0.5,
         "color": "#000000"
     }
-}
+},
 {
   "$schema": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json",
   "elmType": "a",
@@ -140,3 +141,5 @@
     "font-family": "Segoe UI"
   }
 }
+
+]
