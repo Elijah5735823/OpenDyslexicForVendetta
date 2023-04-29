@@ -126,10 +126,8 @@
         "blur": 0.6,
         "url": "https://i.pinimg.com/736x/11/15/66/111566bd9d5d09ba1ff2b974be1646d7.jpg",
         "alpha": 0.5,
-        "color": "#000000"
-    }
-},
-{
+        "color": "#000000",
+
   "$schema": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json",
   "elmType": "a",
   "txtContent": "@currentField",
@@ -138,8 +136,8 @@
     "href": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json"
   },
   "style": {
-    "font-family": "OpenDyslexic"
+    "font-family": "Segoe UI"
   }
-}
+}}
 
 ]
