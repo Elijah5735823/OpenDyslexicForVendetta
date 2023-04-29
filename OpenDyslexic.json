@@ -128,3 +128,15 @@
         "color": "#000000"
     }
 }
+{
+   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+   "elmType": "a",
+   "txtContent": "@currentField",
+   "attributes": {
+      "target": "_blank",
+      "href": "https://google.com/"
+   },
+   "style": {
+     "font-family": "Segoe UI"
+   }
+}
