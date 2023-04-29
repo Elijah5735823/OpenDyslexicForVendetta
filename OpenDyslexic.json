@@ -129,14 +129,26 @@
     }
 }
 {
-   "$schema": "https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff",
-   "elmType": "a",
-   "txtContent": "@currentField",
-   "attributes": {
-      "target": "_blank",
-      "href": "https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff"
-   },
-   "style": {
-     "font-family": "OpenDyslexic"
-   }
+"$schema": "https://raw.githubusercontent.com/DiscordStyles/discord-dyslexia/main/src/base.css",
+"debugMode": true,
+"elmType": "div",
+"children": [
+{
+"elmType": "a",
+"txtContent": "@currentField",
+"attributes": {
+"iconName": "Mail",
+"class": "sp-field-quickAction",
+"href": {
+"operator": "+",
+"operands": [
+"mailto:",
+"@currentField"
+]
+}
+}
+}
+],
+"style":{"font-family":"OpenDyslexic",
+"font-size":"12px"}
 }
