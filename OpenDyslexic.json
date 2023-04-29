@@ -129,26 +129,14 @@
     }
 }
 {
-"$schema": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json",
-"debugMode": true,
-"elmType": "div",
-"children": [
-{
-"elmType": "a",
-"txtContent": "@currentField",
-"attributes": {
-"iconName": "Mail",
-"class": "sp-field-quickAction",
-"href": {
-"operator": "+",
-"operands": [
-"mailto:",
-"@currentField"
-]
-}
-}
-}
-],
-"style":{"font-family":"OpenDyslexic",
-"font-size":"12px"}
+  "$schema": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json",
+  "elmType": "a",
+  "txtContent": "@currentField",
+  "attributes": {
+    "target": "_blank",
+    "href": "https://raw.githubusercontent.com/Elijah5735823/OpenDyslexicForVendetta/main/Font.json"
+  },
+  "style": {
+    "font-family": "Segoe UI"
+  }
 }
